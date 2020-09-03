@@ -10,7 +10,7 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color:#inherit;
+  background-color:#black;
 }
 footer {
   text-align: center;
@@ -44,7 +44,7 @@ text-align: center;
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
-color: Grey;
+color: black;
 }
 header img {
   width: 100%;
@@ -77,7 +77,7 @@ float: right;
 article figcaption {
   font-size: smaller;
   font-weight: lighter;
-  font-family: cursive;
+  font-family: fantasy;
 }
 .pagination {
 display: flex;
@@ -103,9 +103,9 @@ a.button:hover, a.button:active {
   color: #222;
 }
 .dropcap{
-font-size: 510px
+font-size: 50px;
 float:left;
-line-height: .75
+line-height: .75;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
